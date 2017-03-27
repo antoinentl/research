@@ -210,6 +210,31 @@ icon:link[] http://www.xwiki.org/
 * Payant pour l'offre Cloud (6.000€ pour 100 utilisateurs, 9.000€ par an pour 250 utilisateurs)
 * Nécessite un hébergement pour la version gratuite
 
+=== Markdown + API (éditeur) + git (versionning) + SSG (diffusion web)
+
+_Modèle et non solution tout en un_
+
+Il s'agit de construire une chaîne d'édition et de diffusion de documents, avec :
+
+* Un format de fichiers compréhensible par les humains, éditable dans des logiciels, et transformable en HTML : Markdown
+* Un éditeur de texte en ligne, comme http://prose.io/[http://prose.io] ou https://forestry.io/[https://forestry.io] (plus puissant)
+* Un standard pour la collaboration : git. La plateforme GitLab serait à privilégier, puisque les dépôts peuvent être privés sans compte payant, et que les CGU sont plus _respectables_ que GitHub
+* Un générateur de site statique et un hébergement intégré à la plateforme de versioning, ça tombe bien GitLab le gère : https://pages.gitlab.io/[https://pages.gitlab.io/]
+* Coûts à prévoir : comptes payants sur GitLab ou GitHub (entre 50 et 100 euros par an et par utilisateur), et sur Forestry (ou équivalent)
+
+*Avantages*
+
+* Modularité
+* Formats ouverts
+* Puissance (potentiellement)
+* Pas d'hébergement
+
+*Inconvénients*
+
+* Formation nécessaire (plusieurs rôles à distinguer)
+* Configuration précise
+* Usine à gaz (si mal géré)
+
 == Conclusions
 
 Les interfaces de collaboration propriétaires ont une tendance à enfermer les usagers dans un modèle de _pricing_ par utilisateur (contre-productif pour de la documentation ouverte) et à enfermer dans un format propriétaire nécessitant des combines pour exporter en masse.
